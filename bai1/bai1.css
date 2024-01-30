@@ -1,0 +1,40 @@
+/* bai1.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 0;
+}
+
+form {
+  text-align: center;
+  border: 1.5px solid #ccc;
+  padding: 70px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 500px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 65%;
+  padding: 7px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-right: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+}
